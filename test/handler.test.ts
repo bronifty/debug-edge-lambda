@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { root } from "../utils/root.js";
-import { handler } from "../lambda.edge.ts";
+import { handler } from "../modify-response-headers-lambda.edge.ts";
 
 const eventPath = path.join(
   root,
